@@ -1,0 +1,25 @@
+{
+	"name": "style-compile",
+	"version": "0.1.0",
+	"description": "Include newschool stylesheets in oldschool css",
+	"keywords": ["css","lesscss","less"],
+	"engines": { "node" : ">=0.2.3" },
+	"author": "Ben Foxall <benfoxall@gmail.com> (http://bfoxall.com)",
+	"repository":
+		{ 
+			"type" : "git",
+			"url": "http://github.com/benfoxall/style-compile.git"
+		},
+	"directories": 
+		{
+			"bin": "./bin"
+		},
+	"bin": 
+		{
+			"style-compile": "./bin/style-compile.js"
+		},
+	"dependencies": {
+		"less": ">=1.0.5"
+	},
+}
+ 
