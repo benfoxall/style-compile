@@ -43,7 +43,7 @@ var addLess = function(file){
 	fs.stat(file, function(err, stats){
 		if(err){
 			var content = "// " + file + " - created by style-compile (github.com/benfoxall/style-compile)\n"
-			content    += "// see lesscss.org for sytax\n\n"
+			content    += "// see lesscss.org for syntax\n\n"
 			
 			fs.writeFile(file, content, function (err) {
 				if (err) throw err;
