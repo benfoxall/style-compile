@@ -1,6 +1,6 @@
 {
 	"name": "style-compile",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Include newschool stylesheets in oldschool css",
 	"keywords": ["css","lesscss","less"],
 	"engines": { "node" : ">=0.2.3" },
