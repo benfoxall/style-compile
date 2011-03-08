@@ -111,10 +111,10 @@ var write = function(){
 			fn = line.match(/@style-compile ([^ ]*\.less)/)[1]
 			
 			
-			if(i+1 < css_lines.length && css_lines[i+1].indexOf('/*---begin:') > 0){
+			if(i+1 < css_lines.length && css_lines[i+1].indexOf('/*---begin:') >= 0){
 				//increment i till we get to to END
 				for (; i < css_lines.length; i++) {
-					if(css_lines[i].indexOf('/*---end:') > 0){
+					if(css_lines[i].indexOf('/*---end:') >= 0){
 						break;
 					}
 				}
